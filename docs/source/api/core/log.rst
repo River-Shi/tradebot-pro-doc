@@ -38,3 +38,32 @@ Usage Example
        "exchange": "binance",
        "symbol": "BTCUSDT"
    }) 
+
+SpdLog
+------
+
+.. py:class:: SpdLog
+
+   Structured logging system with file rotation.
+
+   .. py:classmethod:: get_logger(name: str, level: Literal["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"] = "INFO", flush: bool = False) -> spd.Logger
+
+      Get or create a logger instance.
+
+      :param str name: Logger name
+      :param str level: Log level
+      :param bool flush: Auto-flush after each log
+      :return: Logger instance
+      :rtype: spdlog.Logger
+
+   .. py:classmethod:: initialize(log_dir: str = ".logs", async_mode: bool = True, setup_error_handlers: bool = True)
+
+      Initialize the logging system.
+
+      :param str log_dir: Directory for log files
+      :param bool async_mode: Enable async logging
+      :param bool setup_error_handlers: Setup global error handlers
+
+   .. py:classmethod:: close_all_loggers()
+
+      Close all logger instances and release resources.
