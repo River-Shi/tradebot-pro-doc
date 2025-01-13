@@ -6,8 +6,9 @@ Welcome to TradeBot's documentation!
    :caption: Contents:
 
    installation
-   concepts/index
    quickstart
+   concepts/index
+   exchange/index
    api/index
 
 Overview

@@ -18,4 +18,5 @@ There are two types of assets: ``SPOT`` and ``SWAP``. ``SWAP`` is divided into `
 
 .. note::
 
-    ``SWAP`` can be either ``FUTURE`` or ``PERP``, depending on whether the character after ``-`` is ``PERP`` or a number. Eg: ``BTCUSD-241227.BINANCE`` is ``FUTURE`` while ``BTCUSDT-PERP.BYBIT`` is ``PERP``. 
+    ``SWAP`` can be either ``FUTURE`` or ``PERP``, depending on whether the character after ``-`` is ``PERP`` or a number. Eg: ``BTCUSD-241227.BINANCE`` is ``FUTURE`` while ``BTCUSDT-PERP.BYBIT`` is ``PERP``.
+    The difference between ``LINEAR`` and ``INVERSE`` is the determination of the asset. ``LINEAR`` is determined by quote asset, while ``INVERSE`` is the price of the base asset.

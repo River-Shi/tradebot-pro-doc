@@ -1,7 +1,7 @@
 Quick Start Guide
 =================
 
-1. Starting with a Simple TWAP Strategy
+Starting with a Simple TWAP Strategy
 ------------------------------------------
 
 Configuring ExchangeManager
